@@ -44,9 +44,12 @@ Git Pull Dirigent can do diffent things by assigning different combinations to *
 | ------ | -- COMPOSER  --| ----- JS PM ---- |  - JS PM CMD - | -  FILE COMPILE - |  ---- -- WHEN-- ------- |
 
 | ------ | - install | update |  install | update  |  install | update  | - prod | dev | watch | always |- on update - |
+
 | ------ |  --- 1 ----- | --- 2 --- | ---- 1 --- | --- 2 ---  | --- 1 --- | --- 2 ----  |  -- 1 -- | - 2 - | -- 3 --  | --- 1 --- | --- -- 0 ------ |  
+
 | ------ |  ---- ----  1  ---- ---- | ----- ---  1 ---- ---- | --- --- 1 --------   | ---   -- --- -- 1 -- --- ---- | --- --- - 0 --- --- ------- |
 | ------ |  composer install  | --- ------  -----  npm install  --- --- ---    |  ---- run prod -------  |  -- on updates only - |
+
 | ------ |  composer.json | --- --- --- --- package.json -- --- ---- ---   |  --  files to compile --- | ----------------------  |
 
 In this table was described how **gpd_cmd=11110**, and what selected commands will do.
