@@ -48,6 +48,7 @@ Git Pull Dirigent can do diffent things by assigning different combinations to *
 | ------ |  --- 1 ----- | --- 2 --- | ---- 1 --- | --- 2 ---  | --- 1 --- | --- 2 ----  |  -- 1 -- | - 2 - | -- 3 --  | --- 1 --- | --- -- 0 ------ |  
 
 | ------ |  ---- ----  1  ---- ---- | ----- ---  1 ---- ---- | --- --- 1 --------   | ---   -- --- -- 1 -- --- ---- | --- --- - 0 --- --- ------- |
+
 | ------ |  composer install  | --- ------  -----  npm install  --- --- ---    |  ---- run prod -------  |  -- on updates only - |
 
 | ------ |  composer.json | --- --- --- --- package.json -- --- ---- ---   |  --  files to compile --- | ----------------------  |
