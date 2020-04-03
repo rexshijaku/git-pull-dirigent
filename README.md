@@ -42,6 +42,7 @@ Git Pull Dirigent by default will run tasks asssigned to it only if their respec
 Git Pull Dirigent can do diffent things by assigning different combinations to **gpd_cmd**. Instructions on how to use these commands are provided in the table below.
 
 | ------ | -- COMPOSER  --| ----- JS PM ---- |  - JS PM CMD - | -  FILE COMPILE - |  ---- -- WHEN-- ------- |
+
 | ------ | - install | update |  install | update  |  install | update  | - prod | dev | watch | always |- on update - |
 | ------ |  --- 1 ----- | --- 2 --- | ---- 1 --- | --- 2 ---  | --- 1 --- | --- 2 ----  |  -- 1 -- | - 2 - | -- 3 --  | --- 1 --- | --- -- 0 ------ |  
 | ------ |  ---- ----  1  ---- ---- | ----- ---  1 ---- ---- | --- --- 1 --------   | ---   -- --- -- 1 -- --- ---- | --- --- - 0 --- --- ------- |
