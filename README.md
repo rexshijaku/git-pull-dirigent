@@ -92,12 +92,15 @@ Right click in the main directory of your project and select **'Run Bash Here'**
 ```sh
 $ sh gitpulldirigent.sh
 ```
+### Known issues
+ - If files which are defined to be compiled by webpack mix contain modules (files) which are being included (imported) inside those files, changes in these imported module (files) will not trigger the necessary command.
 
 ### Todos
 
  - Testing more
  - Send gpd_cmd as parameter 
  - Extending functionality
+ - Fix known issues
 
 License
 ----
